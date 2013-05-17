@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<link href="custom-select.css" rel="stylesheet" type="text/css">
+
+	<title>Custom select element</title>
+	
+</head>
+<body>
+	
+	<!-- Select element -->
+	<select>
+		<option value="monkey">Monkey</option>
+		<option value="nut" selected="selected">Nut</option>
+		<option value="mies">Mies</option>
+	</select>
+	
+	<!-- Select with optgroup
+	<select>
+		<optgroup label="Animals">
+			<option value="monkey">Monkey</option>
+			<option value="elephant">Elephant</option>
+		</optgroup>
+		<optgroup label="German Cars">
+			<option value="mercedes">Mercedes</option>
+			<option value="audi">Audi</option>
+		</optgroup>
+	</select>
+	-->
+	
+	<!-- Disabled select element -->
+	<select disabled="disabled">
+		<option selected="selected">Disabled</option>
+		<option>Foo</option>
+		<option>Bar</option>
+	</select>
+		
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="custom-select.js"></script>
+	<script>
+		$('select').CustomSelect();
+	</script>
+</body>
+</html>
