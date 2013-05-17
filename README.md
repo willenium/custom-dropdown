@@ -1,10 +1,6 @@
 custom-dropdown
 ===============
-
-Replaces &lt;select&gt; with an easy to style custom element
-
-## What? 
-jQuery plugin that creates a list from your &lt;select&gt; for easier css styling.
+jQuery plugin that creates an easy to style list (ul) element from your &lt;select&gt; for easier css styling.
 
 ### Size 
 8KB unminified
